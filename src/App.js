@@ -13,10 +13,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<LoginPage/>}/>
           <Route path="/form" element={<FormPage/>}/>
-          {/* 
-            Redirect any unknown routes to the LoginPage.
-            The `from` prop is omitted here, as Redirect without `from` always redirects.
-          */}
           <Route path="/review" element={<ReviewPage/>}/>
         </Routes>
       </div>
