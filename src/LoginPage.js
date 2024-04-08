@@ -9,7 +9,7 @@ function LoginPage() {
 
   const handleRetrieveDetails = async () => {
     // try {
-      const response = await fetch(`http://18.223.122.141:8000/api/user/${username}`);
+      const response = await fetch(`https://18.223.122.141:8000/api/user/${username}`);
       console.log(response);
       const data = await response.json();
       if (response.ok) {
@@ -34,7 +34,7 @@ function LoginPage() {
 
   const handleCreateUser = async () => {
     try {
-      const response = await fetch('http://18.223.122.141:8000/api/user/create/', {
+      const response = await fetch('https://18.223.122.141:8000/api/user/create/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
