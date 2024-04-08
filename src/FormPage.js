@@ -884,7 +884,7 @@ function FormPage() {
         body: JSON.stringify({ userDetails: formData }), // Adjust according to your API requirements
       };
 
-        fetch('http://18.223.122.141:8000/api/user/fill-detail/', requestOptions)
+        fetch('https://18.223.122.141:8000/api/user/fill-detail/', requestOptions)
             .then(response => response.json())
             .then(data => {
                 console.log(data);
@@ -896,7 +896,7 @@ function FormPage() {
   };
 
   const handleViewPdf = () => {
-    fetch(`http://18.223.122.141:8000/pdf/fill/${formData.username}`)
+    fetch(`https://18.223.122.141:8000/pdf/fill/${formData.username}`)
         .then(response => response.blob())
         .then(blob => {
             const url = window.URL.createObjectURL(blob);
