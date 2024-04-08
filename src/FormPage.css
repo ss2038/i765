@@ -1,4 +1,4 @@
-/* Overall form container styling with a more sophisticated shadow for depth */
+
 .form-container {
     max-width: 600px;
     margin: 40px auto;
@@ -9,7 +9,6 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Form title styling with improved typography for better readability */
 .form-title {
     margin-bottom: 35px;
     text-align: center;
@@ -18,7 +17,6 @@
     font-weight: 500;
 }
 
-/* Individual form groups (label + input) with more space */
 .form-group {
     margin-bottom: 25px;
 }
@@ -31,7 +29,6 @@
     font-weight: 500;
 }
 
-/* Input fields, including text, date, and select, with a more engaging interaction */
 .form-control {
     width: 100%;
     padding: 12px 20px;
@@ -50,12 +47,10 @@
     background-color: #fff;
 }
 
-/* Enhancing the hover effect on inputs for better user interaction */
 .form-control:hover {
     border-color: #007bff;
 }
 
-/* Checkbox styling with better alignment and interaction */
 .checkbox-group {
     display: flex;
     align-items: center;
@@ -68,7 +63,6 @@
     accent-color: #007bff;
 }
 
-/* Styling the submit button to make it more engaging and interactive */
 .submit-button {
     display: block;
     width: 100%;
