@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useHistory hook to handle redirects
-import './LoginPage.css'; // Import CSS file for styling
+import { useNavigate } from 'react-router-dom';
+import './LoginPage.css';
 
 function LoginPage() {
   const [username, setUsername] = useState('');
@@ -73,7 +73,7 @@ function LoginPage() {
           <input
             type="text"
             id="username"
-            className="form-control" // Make sure to apply form-control class for styling
+            className="form-control"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
